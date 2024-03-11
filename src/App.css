@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+body{
+    font-family:'poppins',sans-serif ;
+}
+.home,.book,.author{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    font-weight: 700;
+}
+.num{
+    background-color:#4098C7;
+}
+.back{
+    background-image:url(/images/image1.jpg);
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    color:#61A542;
+}
+.navbar-brand{
+    font-size:20px;
+    font-weight: 700;
+    
+}
+.bookname{
+    margin-top: 10%!important;
+}
+.home:hover,.book:hover,.author:hover{
+  color:#444743;
+}
+.icon{
+    color:rgb(252, 250, 250);
+}
+.icon3{
+    font-size: 20px;
+
+}
+.front{
+    background-color: rgb(168, 248, 168);
+    height:90vh;
+}
+.sidebar{
+    height: 90vh;
+    position:sticky;
+    top: 0px !important;
+}
+.content{
+    height:90vh;
+    overflow-x:hidden;
+    position:sticky;
+    
+
+}
+.bold{
+    font-size: larger;
+    color:rgb(247, 247, 241)
+}
+@media screen and (min-width:768px) {
+    .userWidth {
+        width: 30rem;
+    }
+}
+@media screen and (max-width:990px){
+    .d-block{
+        display:inline;
+    }
+}
+.card{
+    background-color: antiquewhite;
+}
+.card:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.new:hover{
+     background-color:#f3f7f1 ;
+     
+}
+.heading{
+    background-color: #4098C7;
+    padding:10px;
+}
+.redText{
+    color:red;
+}
+.navigation{
+    background-color: #123c54;
+ 
+}
+.navcontent{
+    color: white !important;
+    font-weight: 800;
+}
+.navcontent:hover{
+    color:yellow !important;
+}
+.background{
+    background-color: #4098C7;
+}
+.togglebtn{
+    background-color: #5ab9ef;
+}
