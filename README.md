@@ -42,7 +42,7 @@ This is the frontend part of a simple Book Management System built using React.j
     npm run dev
     ```
 
-5. Access the application at [http://localhost:3000](http://localhost:3000)
+5. Access the application at [http://localhost:3000](https://bookmanagement-react.netlify.app/)
 
 
 ## Usage
